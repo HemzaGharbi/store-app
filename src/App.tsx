@@ -5,8 +5,9 @@ import Hero from "./components/Hero/Hero";
 function App() {
   return (
     <>
-      <h1>Hello React</h1>
-      <Greeting />
+      <Greeting name="John" />
+      <Greeting name="Bob" />
+      <Greeting name="Med" age={23}/>
       <Hero />
     </>
   );
