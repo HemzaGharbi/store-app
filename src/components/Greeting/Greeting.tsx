@@ -8,7 +8,7 @@ export default function Greeting(props: Props) {
 
   return (
     <div>
-      Hello, {name}!{age && <p>Age: {age}</p>}
+      Hello , {name}!{age && <p>Age: {age}</p>}
     </div>
   );
 }
